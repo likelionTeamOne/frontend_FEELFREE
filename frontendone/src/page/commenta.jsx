@@ -57,7 +57,7 @@ const Commenta = () => {
         </j.Mboxx>
 
         <j.Comment>
-            <input type="text" placeholder="댓글을 입력해주세요."/>
+            <input id="comment" type="text" placeholder="댓글을 입력해주세요."/>
             <img
               id="click"
               src={`${process.env.PUBLIC_URL}/logo/comment.svg`}                         

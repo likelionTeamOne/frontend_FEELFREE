@@ -103,26 +103,6 @@ export const Input = styled.div`
   }
 `;
 
-export const Commenta = styled.div`
-  width: 340px;
-  height: 83px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  border: 0.3px solid #000;
-  background: rgba(167, 250, 240, 0.15);
-  input {
-    border: 1px;
-    outline: none;
-    width: 273px;
-    color: #b6b6b6;
-    font-family: "Gothic A1";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-`;
-
 export const Comment = styled.div`
   margin-top: 150px;
   margin-left: 30px;

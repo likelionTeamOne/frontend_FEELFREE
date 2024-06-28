@@ -145,45 +145,21 @@ export const NameBox = styled.div`
   font-size: 13px;
 `;
 
-export const Commenta = styled.div`
-  margin-top: 5px;
-  margin-left: 27px;
-  width: 340px;
-  height: 83px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  border: 0.3px solid #000;
-  background: rgba(167, 250, 240, 0.15);
-  input {
-    border: 1px;
-    outline: none;
-    width: 273px;
-    margin-top: 17px;
-    margin-left: -50px;
-    color: #b6b6b6;
-    font-family: "Gothic A1";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-`;
-
 export const Comment = styled.div`
   margin-top: 150px;
-  margin-left: 27px;
+  margin-left: 30px;
   width: 340px;
   height: 29px;
   flex-shrink: 0;
   border: 0.3px solid black;
   border-radius: 10px;
-  background: #FFF;
+  background: #fff;
   input {
     border: 1px;
     outline: none;
     width: 273px;
-    margin-top: 0px;
-    margin-right: 350px;
+    margin-top: 3px;
+    margin-right: 300px;
     color: #b6b6b6;
     font-family: "Gothic A1";
     font-size: 15px;
@@ -191,10 +167,12 @@ export const Comment = styled.div`
     font-weight: 500;
     line-height: normal;
   }
-
-   #click {
-    position : absolute;
-    margin-top: -15px;
+  #comment {
+    margin-left: 10px;
+  }
+  #click {
+    position: absolute;
+    margin-top: -19px;
     margin-bottom: 10px;
     margin-left: 145px;
     cursor: pointer;
