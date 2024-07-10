@@ -86,5 +86,5 @@ const Home = () => {
       </h.MembershipBox>
     </h.Container>
   );
-}; // 지오 3 
+}; // 지오 4  
 export default Home;
