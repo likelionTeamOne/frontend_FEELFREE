@@ -68,4 +68,5 @@ const Checka = () => {
     </f.Container>
   );
 };
+
 export default Checka;
