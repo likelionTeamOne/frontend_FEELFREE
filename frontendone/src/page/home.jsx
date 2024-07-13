@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import axios from "axios";
 import * as h from "../style/styledhome";
 
 const Home = () => {
   const navigate = useNavigate();
+  const [credentials, setCredentials] = useState({ username: "", password: "" }); // 상태변수(현재상태 화면 반영), 업데이트 함수(상태변수 업데이트) 정의
 
-  const goMain = () => {
-    navigate(`/main`);
+  const handleChange = (e) => { // 입력필드 입력시 호출
+    const { id, value } = e.target; // 사용자가 입력필드에 글자 입력 --> e.target
+    setCredentials({ ...credentials, [id]: value });
   };
 
-  const goMembership = () => {
-    navigate(`/membership`);
+  const handleSubmit = async () => { // 로그인 버튼 클릭 시 호출(비동기 함수 UI반응성 유지)
+    try {
+      const response = await axios.post('http://localhost:8000/rest-auth/login/', credentials);
+      if (response.status === 200) {
+        console.log("로그인 성공");
+        navigate('/main');
+      }
+    } catch (error) {
+      console.error("로그인 실패", error);
+    }
   };
 
   return (
@@ -59,27 +70,29 @@ const Home = () => {
       <h.InsertA>
         <input
           type="text"
-          id="Id"
+          id="username"
           placeholder="ID"
           style={{ outline: "none" }}
+          onChange={handleChange}
         ></input>
       </h.InsertA>
       <h.InsertB>
         <input
-          type="text"
-          id="Pw"
+          type="password"
+          id="password"
           placeholder="PASSWORD"
           style={{ outline: "none" }}
+          onChange={handleChange}
         ></input>
       </h.InsertB>
 
-      <h.LoginBox onClick={goMain}>
+      <h.LoginBox onClick={handleSubmit}>
         <div id="LoginText" style={{ cursor: "pointer" }}>
           로그인
         </div>
       </h.LoginBox>
 
-      <h.MembershipBox onClick={goMembership}>
+      <h.MembershipBox onClick={() => navigate(`/membership`)}>
         <div id="MembershipText" style={{ cursor: "pointer" }}>
           회원가입
         </div>
@@ -87,10 +100,5 @@ const Home = () => {
     </h.Container>
   );
 };
-//1//
-//2//
-//3//
-//4//
-//5//
-//6//
+
 export default Home;

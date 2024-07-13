@@ -83,6 +83,7 @@ export const InputBlank = styled.div`
   }
 `;
 
+/*
 export const Bottom = styled.div`
   display: flex;
   flex-direction: column;
@@ -112,26 +113,36 @@ export const BottomText = styled.div`
     cursor: pointer;
   }
 `;
+*/
 
-export const Button = styled.div`
+export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
   margin-top: 50px;
   margin-left: 80px;
   width: 226px;
   height: 51px;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #fffba6;
+  background-color: #fffba6;
   box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  color: #000;
+  font-family: "Gothic A1";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
   &:hover {
-    background-color: #DADADA;
+    background-color: #dadada;
   }
 `;
 
 export const ButtonText = styled.div`
-  margin-top: 15px;
   color: #000;
-  text-align: center;
   font-family: "Gothic A1";
   font-size: 15px;
   font-style: normal;

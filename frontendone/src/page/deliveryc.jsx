@@ -52,20 +52,20 @@ const Deliveryc = () => {
       </c.Head>
 
       <c.Body>
-        <c.ImageA>
+      <c.ImageA>
         <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/좋은느낌.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/good.svg`}
           alt="box"
         />
                 <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/화이트.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/white.svg`}
           alt="box"
         />
                 <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/순수한면.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/pure.svg`}
           alt="box"
         />
         </c.ImageA>
@@ -73,34 +73,34 @@ const Deliveryc = () => {
         <c.ImageB>
         <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/바디피트.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/body.svg`}
           alt="box"
         />
                 <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/시크릿데이.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/secret.svg`}
           alt="box"
         />
                 <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/허브데이.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/herb.svg`}
           alt="box"
         />
         </c.ImageB>
         <c.ImageC>
         <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/유기농본.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/organic.svg`}
           alt="box"
         />
                 <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/깨끗한나라.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/clear.svg`}
           alt="box"
         />
                 <img
           id="box"
-          src={`${process.env.PUBLIC_URL}/logo/디어스킨.svg`}
+          src={`${process.env.PUBLIC_URL}/logo/dear.svg`}
           alt="box"
         />
         </c.ImageC>
