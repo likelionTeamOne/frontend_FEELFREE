@@ -55,27 +55,27 @@ const Deliverya = () => {
         <a.ImageA>
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/편두통.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/migraine.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/복통.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/stomachache.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/구토.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/vomiting.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/설사.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/diarrhea.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/오한.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/chills.svg`}
             alt="box"
           />
         </a.ImageA>
@@ -83,39 +83,39 @@ const Deliverya = () => {
         <a.ImageB>
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/과식.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/over.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/피로.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/stress.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/속쓰림.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/heartburn.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/허리통증.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/backpain.svg`}
             alt="box"
           />
         </a.ImageB>
         <a.ImageC>
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/소화불량.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/indigestion.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/식욕감퇴.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/lossapp.svg`}
             alt="box"
           />
           <img
             id="box"
-            src={`${process.env.PUBLIC_URL}/logo/수면장애.svg`}
+            src={`${process.env.PUBLIC_URL}/logo/insomnia.svg`}
             alt="box"
           />
         </a.ImageC>

@@ -37,9 +37,9 @@ export const Border = styled.div`
 `;
 
 export const Title = styled.div`
-  #logo{
-  margin-top: 150px;
-  margin-right: 220px;
+  #logo {
+    margin-top: 150px;
+    margin-right: 220px;
   }
 `;
 
@@ -71,7 +71,7 @@ export const InsertA = styled.div`
   border-radius: 10px;
   border: 1.5px solid #000;
   background: #fff;
-  #Id {
+  #username{
     color: #000;
     text-align: left;
     margin-left: -10px;
@@ -82,6 +82,7 @@ export const InsertA = styled.div`
     font-weight: 500;
     line-height: normal;
     border: none;
+    background: none;
   }
 `;
 
@@ -95,7 +96,7 @@ export const InsertB = styled.div`
   border: 1.5px solid #000;
   background: #fff;
   }
-  #Pw {
+  #password {
     color: #000;
     text-align: left;
     margin-left: -10px;
